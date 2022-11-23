@@ -1,5 +1,5 @@
 ### vpn-proxy-docker
-Use nginx as proxy to access restricted network area which should connect by vpn
+Use nginx as proxy to access restricted network area which should connect by Fortinet VPN
 
 1. Copy & Set your [vpn-config](https://github.com/adrienverge/openfortivpn)
 ```

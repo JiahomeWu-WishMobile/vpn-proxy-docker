@@ -7,4 +7,4 @@ services:
     ports:
       - 3399:80
     volumes:
-      - ./config/proxy.conf:/etc/nginx/sites-enabled/proxy.conf
+      - ./config/proxy.conf:/etc/nginx/sites-enabled/default
