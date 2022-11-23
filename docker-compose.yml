@@ -1,0 +1,10 @@
+version: "3.7"
+services:
+  dream-mall-vpn:
+    build: ./
+    privileged: true
+    command: /bin/bash -c "service nginx start && openfortivpn -c /etc/openfortivpn/vpn-config"
+    ports:
+      - 3399:80
+    volumes:
+      - ./config/proxy.conf:/etc/nginx/sites-enabled/proxy.conf

@@ -1,0 +1,12 @@
+server {
+    listen 80 default;
+
+    server_name proxy-nginx;
+
+    access_log  /var/log/nginx/access.proxy-nginx.log;
+    error_log /var/log/nginx/error.proxy-nginx.log;
+
+    # location /app {
+    #     proxy_pass http://???.???.???.???/;
+    # }
+}
